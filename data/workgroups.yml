@@ -1,6 +1,6 @@
 shared-roles:
   - &role-trial
-    trial: |
+    trial: >
       People who have newly joined a workgroup may be trial members initially
       before being given the permissions a regular workgroup member would have.
 
@@ -11,16 +11,17 @@ workgroups:
     intro: |
       The Governance and Guidance workgroup handles SFOSC organization level tasks.
       They are concerned aspects like the governance structure of SFOSC, making sure we're following our
-      own [Social contract] and [principles], set up and give appropriate permissions to the other
-      workgroups, enforcing the [Code of Conduct], and so on.
+      own [Social contract](https://sfosc.org/about/social_contract) and
+      [principles](https://sfosc.org/docs/principles), set up and give appropriate permissions to the other
+      workgroups, enforcing the [Code of Conduct](https://sfosc.org/about/code_of_conduct), and so on.
 
       **Join when** you are interested in how SFOSC organizes itself.
     roles:
       <<: *role-trial
-      credentials: |
+      credentials: >
         People who handle login details / credentials for any part of the organization
         and share it with the appropriate other workgroups and members.
-      workgroups: |
+      workgroups: >
         People who review applications for and generally facilitate the operation of workgroups.
 
   wg-discussion:
@@ -34,12 +35,9 @@ workgroups:
       **Join when** you are interested in discussing SFOSC ideas.
     roles:
       <<: *role-trial
-      community-call: |
-        People who host / organize community calls.
-      moderator-github: |
-        People who moderate discussions on GitHub.
-      moderator-discord: |
-        People who moderate discussions on Discord.
+      community-call: People who host / organize community calls.
+      moderator-github: People who moderate discussions on GitHub.
+      moderator-discord: People who moderate discussions on Discord.
 
   wg-media:
     title: Media
@@ -52,10 +50,8 @@ workgroups:
       **Join when** you are interested in how SFOSC communicates.
     roles:
       <<: *role-trial
-      twitter: |
-        People who manage the twitter account.
-      medium: |
-        People who manage the Medium account.
+      twitter: People who manage the twitter account.
+      medium: People who manage the Medium account.
 
   wg-maintenance-sfosc:
     title: Maintenance sfosc/sfosc
