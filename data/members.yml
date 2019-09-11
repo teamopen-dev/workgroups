@@ -10,7 +10,8 @@ members:
       wg-maintenance-sourcecred:
       wg-maintenance-workgroups:
 
-  - username: example
+  # Example other users
+  - username: beanow-credhelper
     workgroups:
       wg-governance-and-guidance: [trial]
       wg-maintenance-sfosc: [trial]
