@@ -21,7 +21,7 @@ workgroups|People who review applications for and generally facilitate the opera
 
 ## Members
 
-&nbsp;|Name|Role
+&nbsp;|Name|Roles
 -|-|-
 <img src="https://avatars.githubusercontent.com/Beanow?v=4&s=32" width="32" height="32" alt="Beanow" />|Robin van Boven ([@Beanow](https://github.com/Beanow))|credentials, workgroups
 <img src="https://avatars.githubusercontent.com/beanow-credhelper?v=4&s=32" width="32" height="32" alt="beanow-credhelper" />|[@beanow-credhelper](https://github.com/beanow-credhelper)|trial
