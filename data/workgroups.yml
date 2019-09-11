@@ -1,0 +1,114 @@
+shared-roles:
+  - &role-trial
+    trial: |
+      People who have newly joined a workgroup may be trial members initially
+      before being given the permissions a regular workgroup member would have.
+
+workgroups:
+  - key: wg-governance-and-guidance
+    title: Governance and Guidance
+    discord: "#wg-governance-and-guidance"
+    intro: |
+      The Governance and Guidance workgroup handles SFOSC organization level tasks.
+      They are concerned aspects like the governance structure of SFOSC, making sure we're following our
+      own [Social contract] and [principles], set up and give appropriate permissions to the other
+      workgroups, enforcing the [Code of Conduct], and so on.
+
+      **Join when** you are interested in how SFOSC organizes itself.
+    roles:
+      <<: *role-trial
+      credentials: |
+        People who handle login details / credentials for any part of the organization
+        and share it with the appropriate other workgroups and members.
+      workgroups: |
+        People who review applications for and generally facilitate the operation of workgroups.
+
+  - key: wg-discussion
+    title: Discussion
+    discord: "#wg-discussion"
+    intro: |
+      The Discussion workgroup is responsible for facilitating discussions about Sustainable Free and Open
+      Source Communities. They moderate ongoing disucssions, host community calls, encourage participating,
+      and overall see to healthy discussions.
+
+      **Join when** you are interested in discussing SFOSC ideas.
+    roles:
+      <<: *role-trial
+      community-call: |
+        People who host / organize community calls.
+      moderator-github: |
+        People who moderate discussions on GitHub.
+      moderator-discord: |
+        People who moderate discussions on Discord.
+
+  - key: wg-media
+    title: Media
+    discord: "#wg-media"
+    intro: |
+      The Media workgroup handles SFOSC (social) media, publication and communication tasks.
+      They manage announcements, blog posts, social media accounts and makes sure we communicate these well
+      internally and externally.
+
+      **Join when** you are interested in how SFOSC communicates.
+    roles:
+      <<: *role-trial
+      twitter: |
+        People who manage the twitter account.
+      medium: |
+        People who manage the Medium account.
+
+  - key: wg-maintenance-sfosc
+    title: Maintenance sfosc/sfosc
+    discord: "#wg-maintenance-sfosc"
+    intro: |
+      The Maintenance workgroup is split into one workgroup per repository on GitHub.
+      This workgroups handles the `sfosc/sfosc` and `sfosc/sfosc.github.io` repository maintainer tasks.
+
+      These tasks include reviewing and merging pull requests, ensuring the repository code is
+      documented, tested, connected to CI/CD and secured appropriately.
+
+      **Join when** you are interested in making code contributions.
+    roles:
+      <<: *role-trial
+
+  - key: wg-maintenance-wizard
+    title: Maintenance sfosc/wizard
+    discord: "#wg-maintenance-wizard"
+    intro: |
+      The Maintenance workgroup is split into one workgroup per repository on GitHub.
+      This workgroups handles the `sfosc/wizard` repository maintainer tasks.
+
+      These tasks include reviewing and merging pull requests, ensuring the repository code is
+      documented, tested, connected to CI/CD and secured appropriately.
+
+      **Join when** you are interested in making code contributions.
+    roles:
+      <<: *role-trial
+
+  - key: wg-maintenance-sourcecred
+    title: Maintenance sfosc/sourcecred
+    discord: "#wg-maintenance-sourcecred"
+    intro: |
+      The Maintenance workgroup is split into one workgroup per repository on GitHub.
+      This workgroups handles the `sfosc/sourcecred` repository maintainer tasks.
+
+      These tasks include reviewing and merging pull requests, ensuring the repository code is
+      documented, tested, connected to CI/CD and secured appropriately.
+
+      **Join when** you are interested in making code contributions.
+    roles:
+      <<: *role-trial
+
+  - key: wg-maintenance-workgroups
+    title: Maintenance sfosc/workgroups
+    discord: "#wg-maintenance-workgroups"
+    intro: |
+      The Maintenance workgroup is split into one workgroup per repository on GitHub.
+      This workgroups handles the `sfosc/workgroups` repository maintainer tasks.
+
+      These tasks include reviewing and merging pull requests, ensuring the repository code is
+      documented, tested, connected to CI/CD and secured appropriately.
+
+      **Join when** you are interested in making code contributions.
+    roles:
+      <<: *role-trial
