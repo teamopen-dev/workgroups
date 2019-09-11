@@ -2,9 +2,10 @@
   "name": "workgroup-scripts",
   "private": true,
   "scripts": {
-  	"generate": "node main.js"
+    "generate": "node main.js"
   },
   "dependencies": {
+    "badgen": "^2.8.2",
     "handlebars": "^4.2.0",
     "rimraf": "^3.0.0",
     "yaml": "^1.6.0"

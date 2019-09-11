@@ -5,6 +5,7 @@ const {templateWorkgroup} = require('./templating');
 const {resolve: resolvePath, join: joinPath} = require('path');
 const {sync: rimrafSync} = require('rimraf');
 const {writeFileSync} = require('fs');
+const badgen = require('badgen')
 
 const {workgroups, members} = loadData();
 
@@ -16,3 +17,11 @@ for(const key in workgroups) {
 	const doc = templateWorkgroup(wg);
 	writeFileSync(joinPath(docsPath, `${wg.key}.md`), doc);
 }
+
+// Generates /badge.svg
+const badge = badgen({
+	label: 'Open Workgroups',
+	status: Object.keys(workgroups).length.toString(),
+	color: 'blue'
+});
+writeFileSync(resolvePath(__dirname, '../badge.svg'), badge);
