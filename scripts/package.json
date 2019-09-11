@@ -1,0 +1,12 @@
+{
+  "name": "workgroup-scripts",
+  "private": true,
+  "scripts": {
+  	"generate": "node main.js"
+  },
+  "dependencies": {
+    "handlebars": "^4.2.0",
+    "rimraf": "^3.0.0",
+    "yaml": "^1.6.0"
+  }
+}

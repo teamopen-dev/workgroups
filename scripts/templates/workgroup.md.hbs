@@ -1,0 +1,21 @@
+<!-- GENERATED FILE, DON'T EDIT -->
+# Workgroup: {{title}}
+ID: {{key}}<br>
+{{#if discord}}Discord: {{discord}}{{/if}}
+
+{{{intro}}}
+## Roles
+
+Role | Description
+-|-
+{{#each roles}}
+{{@key}}|{{trim this}}
+{{/each}}
+
+## Members
+
+&nbsp;|Name|Role
+-|-|-
+{{#each members}}
+{{{avatarFor member.username 32}}}|{{memberDisplay member}}|{{join roles ', '}}
+{{/each}}
