@@ -5,106 +5,54 @@ shared-roles:
       before being given the permissions a regular workgroup member would have.
 
 workgroups:
-  wg-governance-and-guidance:
-    title: Governance and Guidance
-    discord: "#wg-governance-and-guidance"
+  wg-organization:
+    title: Organization
+    discord: "#wg-organization"
     intro: |
-      The Governance and Guidance workgroup handles SFOSC organization level tasks.
-      They are concerned aspects like the governance structure of SFOSC, making sure we're following our
-      own [Social contract](https://sfosc.org/about/social_contract) and
-      [principles](https://sfosc.org/docs/principles), set up and give appropriate permissions to the other
-      workgroups, enforcing the [Code of Conduct](https://sfosc.org/about/code_of_conduct), and so on.
+      Organization level day-to-day tasks.
 
-      **Join when** you are interested in how SFOSC organizes itself.
+      **Join when** you are interested in how Team Open organizes itself.
     roles:
       <<: *role-trial
       credentials: >
         People who handle login details / credentials for any part of the organization
         and share it with the appropriate other workgroups and members.
-      workgroups: >
-        People who review applications for and generally facilitate the operation of workgroups.
+      workgroups: People who review applications for and generally facilitate the operation of workgroups.
+      discord: Have admin permissions for the Discord server.
+      github: Have admin permissions for the GitHub organization.
 
-  wg-discussion:
-    title: Discussion
-    discord: "#wg-discussion"
+  wg-outreach:
+    title: Outreach
+    discord: "#wg-outreach"
     intro: |
-      The Discussion workgroup is responsible for facilitating discussions about Sustainable Free and Open
-      Source Communities. They moderate ongoing disucssions, host community calls, encourage participating,
-      and overall see to healthy discussions.
+      The Outreach workgroup looks for places where Team Open may offer help,
+      or people that may be interested in joining us and contacts them.
 
-      **Join when** you are interested in discussing SFOSC ideas.
-    roles:
-      <<: *role-trial
-      community-call: People who host / organize community calls.
-      moderator-github: People who moderate discussions on GitHub.
-      moderator-discord: People who moderate discussions on Discord.
-
-  wg-media:
-    title: Media
-    discord: "#wg-media"
-    intro: |
-      The Media workgroup handles SFOSC (social) media, publication and communication tasks.
-      They manage announcements, blog posts, social media accounts and makes sure we communicate these well
-      internally and externally.
-
-      **Join when** you are interested in how SFOSC communicates.
-    roles:
-      <<: *role-trial
-      twitter: People who manage the twitter account.
-      medium: People who manage the Medium account.
-
-  wg-maintenance-sfosc:
-    title: Maintenance sfosc/sfosc
-    discord: "#wg-maintenance-sfosc"
-    intro: |
-      The Maintenance workgroup is split into one workgroup per repository on GitHub.
-      This workgroups handles the `sfosc/sfosc` and `sfosc/sfosc.github.io` repository maintainer tasks.
-
-      These tasks include reviewing and merging pull requests, ensuring the repository code is
-      documented, tested, connected to CI/CD and secured appropriately.
-
-      **Join when** you are interested in making code contributions.
+      **Join when** you are interested in connecting with the larger community.
     roles:
       <<: *role-trial
 
-  wg-maintenance-wizard:
-    title: Maintenance sfosc/wizard
-    discord: "#wg-maintenance-wizard"
+  wg-lifeguard:
+    title: Lifeguard
+    discord: "#wg-lifeguard"
     intro: |
-      The Maintenance workgroup is split into one workgroup per repository on GitHub.
-      This workgroups handles the `sfosc/wizard` repository maintainer tasks.
+      The Lifeguard workgroup works on Team Open's Lifeguard project.
+      This workgroup focusses on the overal project, it is separate from
+      `wg-lifeguard-devs`, which is the workgroup that handles emergency
+      maintenance of open-source projects.
 
-      These tasks include reviewing and merging pull requests, ensuring the repository code is
-      documented, tested, connected to CI/CD and secured appropriately.
-
-      **Join when** you are interested in making code contributions.
+      **Join when** you are interested in developing the Lifeguard project.
     roles:
       <<: *role-trial
 
-  wg-maintenance-sourcecred:
-    title: Maintenance sfosc/sourcecred
-    discord: "#wg-maintenance-sourcecred"
+  wg-lifeguard-devs:
+    title: Lifeguard Devs
+    discord: "#wg-lifeguard-devs"
     intro: |
-      The Maintenance workgroup is split into one workgroup per repository on GitHub.
-      This workgroups handles the `sfosc/sourcecred` repository maintainer tasks.
+      The Lifeguard Devs workgroup handles emergency maintenance of open-source
+      projects, that are in the Lifeguard project.
+      The overall work on the Lifeguard project is done in `wg-lifeguard` isntead.
 
-      These tasks include reviewing and merging pull requests, ensuring the repository code is
-      documented, tested, connected to CI/CD and secured appropriately.
-
-      **Join when** you are interested in making code contributions.
-    roles:
-      <<: *role-trial
-
-  wg-maintenance-workgroups:
-    title: Maintenance sfosc/workgroups
-    discord: "#wg-maintenance-workgroups"
-    intro: |
-      The Maintenance workgroup is split into one workgroup per repository on GitHub.
-      This workgroups handles the `sfosc/workgroups` repository maintainer tasks.
-
-      These tasks include reviewing and merging pull requests, ensuring the repository code is
-      documented, tested, connected to CI/CD and secured appropriately.
-
-      **Join when** you are interested in making code contributions.
+      **Join when** you are interested in maintaining open-source projects in need.
     roles:
       <<: *role-trial

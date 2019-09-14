@@ -2,16 +2,6 @@ members:
   - username: Beanow
     display: Robin van Boven
     workgroups:
-      wg-governance-and-guidance: [credentials, workgroups]
-      wg-discussion: [community-call, moderator-github, moderator-discord]
-      wg-media: [twitter, medium]
-      wg-maintenance-sfosc:
-      wg-maintenance-wizard:
-      wg-maintenance-sourcecred:
-      wg-maintenance-workgroups:
-
-  # Example other users
-  - username: beanow-credhelper
-    workgroups:
-      wg-governance-and-guidance: [trial]
-      wg-maintenance-sfosc: [trial]
+      wg-organization: [discord, github, credentials, workgroups]
+      wg-lifeguard:
+      wg-outreach:
