@@ -7,7 +7,7 @@ The Media workgroup handles (social) media, publication and communication tasks.
 They manage announcements, blog posts, social media accounts and makes sure we communicate these well
 internally and externally.
 
-**Join when** you are interested in how SFOSC communicates.
+**Join when** you are interested in how Team Open communicates.
 
 ## Roles
 
