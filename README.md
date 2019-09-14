@@ -1,4 +1,4 @@
-# SFOSC workgroups
+# Team Open workgroups
 
 **[![Workgroups](badge.svg)](workgroups)**
 
