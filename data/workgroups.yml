@@ -56,3 +56,17 @@ workgroups:
       **Join when** you are interested in maintaining open-source projects in need.
     roles:
       <<: *role-trial
+
+  wg-media:
+    title: Media
+    discord: "#wg-media"
+    intro: |
+      The Media workgroup handles (social) media, publication and communication tasks.
+      They manage announcements, blog posts, social media accounts and makes sure we communicate these well
+      internally and externally.
+
+      **Join when** you are interested in how SFOSC communicates.
+    roles:
+      <<: *role-trial
+      twitter: People who manage the Twitter account.
+      devto: People who manage the dev.to account.
