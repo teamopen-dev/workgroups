@@ -1,7 +1,7 @@
 'use strict';
 
 const {loadData} = require('./loading');
-const {templateWorkgroup} = require('./templating');
+const {templateWorkgroup, templateWorkgroupList} = require('./templating');
 const {resolve: resolvePath, join: joinPath} = require('path');
 const {sync: rimrafSync} = require('rimraf');
 const {writeFileSync} = require('fs');
@@ -17,6 +17,11 @@ for(const key in workgroups) {
 	const doc = templateWorkgroup(wg);
 	writeFileSync(joinPath(docsPath, `${wg.key}.md`), doc);
 }
+writeFileSync(
+	joinPath(docsPath, `README.md`),
+	templateWorkgroupList(workgroups)
+);
+
 
 // Generates /badge.svg
 const badge = badgen({

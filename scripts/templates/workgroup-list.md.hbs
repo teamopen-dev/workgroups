@@ -1,0 +1,12 @@
+<!-- GENERATED FILE, DON'T EDIT -->
+# Open Workgroups list
+
+Key | Title | Members
+-|-|-:
+{{#each this}}
+[{{@key}}]|[{{trim title}}][{{@key}}]|{{members.length}}
+{{/each}}
+
+{{#each this}}
+[{{@key}}]: /workgroups/{{@key}}.md
+{{/each}}

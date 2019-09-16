@@ -27,6 +27,13 @@ const loadWorkgroupMdTemplate = () => {
 	return loadTemplate(resolvePath(__dirname, './templates/workgroup.md.hbs'), workgroupEnv);
 };
 
+const loadWorkgroupListMdTemplate = () => {
+	const workgroupEnv = create();
+	workgroupEnv.registerHelper('trim', trim);
+	workgroupEnv.registerHelper('join', join);
+	return loadTemplate(resolvePath(__dirname, './templates/workgroup-list.md.hbs'), workgroupEnv);
+};
+
 const cache = exports.cache = {};
 
 exports.templateWorkgroup = workgroup => {
@@ -35,4 +42,12 @@ exports.templateWorkgroup = workgroup => {
 	}
 
 	return cache.workgroup(workgroup);
+};
+
+exports.templateWorkgroupList = workgroups => {
+	if('workgroupList' in cache === false) {
+		cache.workgroupList = loadWorkgroupListMdTemplate();
+	}
+
+	return cache.workgroupList(workgroups);
 };
