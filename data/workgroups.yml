@@ -1,0 +1,72 @@
+shared-roles:
+  - &role-trial
+    trial: >
+      People who have newly joined a workgroup may be trial members initially
+      before being given the permissions a regular workgroup member would have.
+
+workgroups:
+  wg-organization:
+    title: Organization
+    discord: "#wg-organization"
+    intro: |
+      Organization level day-to-day tasks.
+
+      **Join when** you are interested in how Team Open organizes itself.
+    roles:
+      <<: *role-trial
+      credentials: >
+        People who handle login details / credentials for any part of the organization
+        and share it with the appropriate other workgroups and members.
+      workgroups: People who review applications for and generally facilitate the operation of workgroups.
+      discord: Have admin permissions for the Discord server.
+      github: Have admin permissions for the GitHub organization.
+
+  wg-outreach:
+    title: Outreach
+    discord: "#wg-outreach"
+    intro: |
+      The Outreach workgroup looks for places where Team Open may offer help,
+      or people that may be interested in joining us and contacts them.
+
+      **Join when** you are interested in connecting with the larger community.
+    roles:
+      <<: *role-trial
+
+  wg-lifeguard:
+    title: Lifeguard
+    discord: "#wg-lifeguard"
+    intro: |
+      The Lifeguard workgroup works on Team Open's Lifeguard project.
+      This workgroup focusses on the overal project, it is separate from
+      `wg-lifeguard-devs`, which is the workgroup that handles emergency
+      maintenance of open-source projects.
+
+      **Join when** you are interested in developing the Lifeguard project.
+    roles:
+      <<: *role-trial
+
+  wg-lifeguard-devs:
+    title: Lifeguard Devs
+    discord: "#wg-lifeguard-devs"
+    intro: |
+      The Lifeguard Devs workgroup handles emergency maintenance of open-source
+      projects, that are in the Lifeguard project.
+      The overall work on the Lifeguard project is done in `wg-lifeguard` isntead.
+
+      **Join when** you are interested in maintaining open-source projects in need.
+    roles:
+      <<: *role-trial
+
+  wg-media:
+    title: Media
+    discord: "#wg-media"
+    intro: |
+      The Media workgroup handles (social) media, publication and communication tasks.
+      They manage announcements, blog posts, social media accounts and makes sure we communicate these well
+      internally and externally.
+
+      **Join when** you are interested in how Team Open communicates.
+    roles:
+      <<: *role-trial
+      twitter: People who manage the Twitter account.
+      devto: People who manage the dev.to account.

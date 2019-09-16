@@ -1,0 +1,8 @@
+members:
+  - username: Beanow
+    display: Robin van Boven
+    workgroups:
+      wg-organization: [discord, github, credentials, workgroups]
+      wg-lifeguard:
+      wg-outreach:
+      wg-media: [twitter, devto]
