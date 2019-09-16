@@ -7,6 +7,7 @@ shared-roles:
 workgroups:
   wg-organization:
     title: Organization
+    subtitle: Organization level day-to-day tasks.
     discord: "#wg-organization"
     intro: |
       Organization level day-to-day tasks.
@@ -23,6 +24,7 @@ workgroups:
 
   wg-outreach:
     title: Outreach
+    subtitle: Reaching out to where Team Open may help.
     discord: "#wg-outreach"
     intro: |
       The Outreach workgroup looks for places where Team Open may offer help,
@@ -35,6 +37,7 @@ workgroups:
 
   wg-lifeguard:
     title: Lifeguard
+    subtitle: Development of the Lifeguard project itself.
     discord: "#wg-lifeguard"
     intro: |
       The Lifeguard workgroup works on Team Open's Lifeguard project.
@@ -48,6 +51,7 @@ workgroups:
 
   wg-lifeguard-devs:
     title: Lifeguard Devs
+    subtitle: People who maintain OSS in the Lifeguard programe.
     discord: "#wg-lifeguard-devs"
     intro: |
       The Lifeguard Devs workgroup handles emergency maintenance of open-source
@@ -60,6 +64,7 @@ workgroups:
 
   wg-media:
     title: Media
+    subtitle: (Social) media, publication and communication tasks.
     discord: "#wg-media"
     intro: |
       The Media workgroup handles (social) media, publication and communication tasks.

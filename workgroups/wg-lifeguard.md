@@ -1,5 +1,8 @@
 <!-- GENERATED FILE, DON'T EDIT -->
 # Workgroup: Lifeguard
+
+_Development of the Lifeguard project itself._
+
 ID: wg-lifeguard<br>
 Discord: #wg-lifeguard
 

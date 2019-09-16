@@ -1,12 +1,12 @@
 <!-- GENERATED FILE, DON'T EDIT -->
 # Open Workgroups list
 
-Key | Title | Members
+Title | Summary | Members
 -|-|-:
 {{#each this}}
-[{{@key}}]|[{{trim title}}][{{@key}}]|{{members.length}}
+[{{trim title}}][{{@key}}]|{{trim subtitle}}|{{members.length}}
 {{/each}}
 
 {{#each this}}
-[{{@key}}]: /workgroups/{{@key}}.md
+[{{@key}}]: {{@key}}.md
 {{/each}}

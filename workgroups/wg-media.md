@@ -1,5 +1,8 @@
 <!-- GENERATED FILE, DON'T EDIT -->
 # Workgroup: Media
+
+_(Social) media, publication and communication tasks._
+
 ID: wg-media<br>
 Discord: #wg-media
 

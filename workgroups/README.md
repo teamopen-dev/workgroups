@@ -1,16 +1,16 @@
 <!-- GENERATED FILE, DON'T EDIT -->
 # Open Workgroups list
 
-Key | Title | Members
+Title | Summary | Members
 -|-|-:
-[wg-organization]|[Organization][wg-organization]|1
-[wg-outreach]|[Outreach][wg-outreach]|1
-[wg-lifeguard]|[Lifeguard][wg-lifeguard]|1
-[wg-lifeguard-devs]|[Lifeguard Devs][wg-lifeguard-devs]|0
-[wg-media]|[Media][wg-media]|1
+[Organization][wg-organization]|Organization level day-to-day tasks.|1
+[Outreach][wg-outreach]|Reaching out to where Team Open may help.|1
+[Lifeguard][wg-lifeguard]|Development of the Lifeguard project itself.|1
+[Lifeguard Devs][wg-lifeguard-devs]|People who maintain OSS in the Lifeguard programe.|0
+[Media][wg-media]|(Social) media, publication and communication tasks.|1
 
-[wg-organization]: /workgroups/wg-organization.md
-[wg-outreach]: /workgroups/wg-outreach.md
-[wg-lifeguard]: /workgroups/wg-lifeguard.md
-[wg-lifeguard-devs]: /workgroups/wg-lifeguard-devs.md
-[wg-media]: /workgroups/wg-media.md
+[wg-organization]: wg-organization.md
+[wg-outreach]: wg-outreach.md
+[wg-lifeguard]: wg-lifeguard.md
+[wg-lifeguard-devs]: wg-lifeguard-devs.md
+[wg-media]: wg-media.md

@@ -1,5 +1,8 @@
 <!-- GENERATED FILE, DON'T EDIT -->
 # Workgroup: Organization
+
+_Organization level day-to-day tasks._
+
 ID: wg-organization<br>
 Discord: #wg-organization
 

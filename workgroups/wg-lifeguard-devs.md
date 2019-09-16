@@ -1,5 +1,8 @@
 <!-- GENERATED FILE, DON'T EDIT -->
 # Workgroup: Lifeguard Devs
+
+_People who maintain OSS in the Lifeguard programe._
+
 ID: wg-lifeguard-devs<br>
 Discord: #wg-lifeguard-devs
 
