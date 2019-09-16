@@ -5,7 +5,7 @@ Discord: #wg-lifeguard-devs
 
 The Lifeguard Devs workgroup handles emergency maintenance of open-source
 projects, that are in the Lifeguard project.
-The overall work on the Lifeguard project is done in `wg-lifeguard` isntead.
+The overall work on the Lifeguard project is done in `wg-lifeguard` instead.
 
 **Join when** you are interested in maintaining open-source projects in need.
 
