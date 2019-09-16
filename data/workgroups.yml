@@ -31,6 +31,7 @@ workgroups:
       **Join when** you are interested in connecting with the larger community.
     roles:
       <<: *role-trial
+      hello: Handeling the hello@... e-mail address.
 
   wg-lifeguard:
     title: Lifeguard

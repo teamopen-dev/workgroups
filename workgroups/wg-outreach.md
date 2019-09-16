@@ -13,9 +13,10 @@ or people that may be interested in joining us and contacts them.
 Role | Description
 -|-
 trial|People who have newly joined a workgroup may be trial members initially before being given the permissions a regular workgroup member would have.
+hello|Handeling the hello@... e-mail address.
 
 ## Members
 
 &nbsp;|Name|Roles
 -|-|-
-<img src="https://avatars.githubusercontent.com/Beanow?v=4&s=32" width="32" height="32" alt="Beanow" />|Robin van Boven ([@Beanow](https://github.com/Beanow))|
+<img src="https://avatars.githubusercontent.com/Beanow?v=4&s=32" width="32" height="32" alt="Beanow" />|Robin van Boven ([@Beanow](https://github.com/Beanow))|hello
