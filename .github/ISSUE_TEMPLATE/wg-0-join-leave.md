@@ -34,6 +34,7 @@ Please **remove me** from the following workgroups:
 - [ ] [Lifeguard Devs][wg-lifeguard-devs] - _People who maintain OSS in the Lifeguard programe._
 - [ ] [Media][wg-media] - _(Social) media, publication and communication tasks._
 
+## Additional comments
 
 <!--
 
