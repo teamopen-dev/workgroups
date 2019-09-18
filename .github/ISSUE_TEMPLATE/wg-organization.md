@@ -1,6 +1,6 @@
 ---
 # GENERATED FILE, DON'T EDIT
-title: 'Notify workgroup: Organization'
+name: 'Notify workgroup: Organization'
 about: Organization level day-to-day tasks.
 ---
 

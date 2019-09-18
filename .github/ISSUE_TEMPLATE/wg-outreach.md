@@ -1,6 +1,6 @@
 ---
 # GENERATED FILE, DON'T EDIT
-title: 'Notify workgroup: Outreach'
+name: 'Notify workgroup: Outreach'
 about: Reaching out to where Team Open may help.
 ---
 

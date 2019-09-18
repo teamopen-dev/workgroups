@@ -1,6 +1,6 @@
 ---
 # GENERATED FILE, DON'T EDIT
-title: Join / leave workgroups
+name: Join / leave workgroups
 about: We want you!
 ---
 

@@ -1,6 +1,6 @@
 ---
 # GENERATED FILE, DON'T EDIT
-title: 'Notify workgroup: Media'
+name: 'Notify workgroup: Media'
 about: (Social) media, publication and communication tasks.
 ---
 

@@ -1,6 +1,6 @@
 ---
 # GENERATED FILE, DON'T EDIT
-title: 'Notify workgroup: Lifeguard'
+name: 'Notify workgroup: Lifeguard'
 about: Development of the Lifeguard project itself.
 ---
 
