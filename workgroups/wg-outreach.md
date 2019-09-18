@@ -23,3 +23,4 @@ hello|Handeling the hello@... e-mail address.
 &nbsp;|Name|Roles
 -|-|-
 <img src="https://avatars.githubusercontent.com/Beanow?v=4&s=32" width="32" height="32" alt="Beanow" />|Robin van Boven ([@Beanow](https://github.com/Beanow))|hello
+<img src="https://avatars.githubusercontent.com/nothingismagick?v=4&s=32" width="32" height="32" alt="nothingismagick" />|Daniel Thompson-Yvetot ([@nothingismagick](https://github.com/nothingismagick))|
