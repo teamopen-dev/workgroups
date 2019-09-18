@@ -12,7 +12,6 @@ internally and externally.
 
 **Join when** you are interested in how Team Open communicates.
 
-
 ## Roles
 
 Role | Description

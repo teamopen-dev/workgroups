@@ -10,7 +10,6 @@ Organization level day-to-day tasks.
 
 **Join when** you are interested in how Team Open organizes itself.
 
-
 ## Roles
 
 Role | Description
