@@ -33,8 +33,8 @@ Role | Summary
 `trial`|New workgroup members who are in a trial period with limited permissions.
 
 
-[wg-organization]: wg-organization.md
-[wg-outreach]: wg-outreach.md
-[wg-lifeguard]: wg-lifeguard.md
-[wg-lifeguard-devs]: wg-lifeguard-devs.md
-[wg-media]: wg-media.md
+[wg-organization]: workgroups/wg-organization.md
+[wg-outreach]: workgroups/wg-outreach.md
+[wg-lifeguard]: workgroups/wg-lifeguard.md
+[wg-lifeguard-devs]: workgroups/wg-lifeguard-devs.md
+[wg-media]: workgroups/wg-media.md
