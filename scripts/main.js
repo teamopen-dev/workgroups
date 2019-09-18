@@ -18,10 +18,6 @@ for(const key in workgroups) {
 	const doc = Templates.workgroup(wg);
 	writeFileSync(joinPath(docsPath, `${wg.key}.md`), doc);
 }
-writeFileSync(
-	joinPath(docsPath, `README.md`),
-	Templates.workgroupList(workgroups)
-);
 
 // Generates /.github/ISSUE_TEMPLATE
 const templPath = resolvePath(__dirname, '../.github/ISSUE_TEMPLATE');
@@ -37,6 +33,12 @@ for(const key in workgroups) {
 	writeFileSync(joinPath(templPath, `wg-${issueTemplateIndex}-${wg.key}.md`), doc);
 	issueTemplateIndex++;
 }
+
+// Generates /README.md
+writeFileSync(
+	resolvePath(__dirname, `../README.md`),
+	Templates.workgroupList(workgroups)
+);
 
 // Generates /badge.svg
 const badge = badgen({
