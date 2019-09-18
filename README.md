@@ -30,7 +30,7 @@ Any workgroup has these roles.
 
 Role | Summary
 -|-
-`trial`|People who have newly joined a workgroup may be trial members initially before being given the permissions a regular workgroup member would have.
+`trial`|New workgroup members who are in a trial period with limited permissions.
 
 
 [wg-organization]: wg-organization.md

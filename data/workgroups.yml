@@ -1,8 +1,7 @@
 shared-roles:
   - &role-trial
     trial: >
-      People who have newly joined a workgroup may be trial members initially
-      before being given the permissions a regular workgroup member would have.
+      New workgroup members who are in a trial period with limited permissions.
 
 workgroups:
   wg-organization:

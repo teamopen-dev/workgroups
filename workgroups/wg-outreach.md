@@ -15,7 +15,7 @@ or people that may be interested in joining us and contacts them.
 
 Role | Description
 -|-
-trial|People who have newly joined a workgroup may be trial members initially before being given the permissions a regular workgroup member would have.
+trial|New workgroup members who are in a trial period with limited permissions.
 hello|Handeling the hello@... e-mail address.
 
 ## Members

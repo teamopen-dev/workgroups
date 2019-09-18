@@ -14,7 +14,7 @@ Organization level day-to-day tasks.
 
 Role | Description
 -|-
-trial|People who have newly joined a workgroup may be trial members initially before being given the permissions a regular workgroup member would have.
+trial|New workgroup members who are in a trial period with limited permissions.
 credentials|People who handle login details / credentials for any part of the organization and share it with the appropriate other workgroups and members.
 workgroups|People who review applications for and generally facilitate the operation of workgroups.
 discord|Have admin permissions for the Discord server.
