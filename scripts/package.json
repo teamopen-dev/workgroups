@@ -2,12 +2,21 @@
   "name": "workgroup-scripts",
   "private": true,
   "scripts": {
-    "generate": "node main.js"
+    "generate": "node main.js",
+    "add-generated": "git add :/badge.svg :/workgroups/*"
   },
   "dependencies": {
     "badgen": "^2.8.2",
     "handlebars": "^4.2.0",
     "rimraf": "^3.0.0",
     "yaml": "^1.6.0"
+  },
+  "devDependencies": {
+    "husky": "^3.0.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run generate && npm run add-generated"
+    }
   }
 }
