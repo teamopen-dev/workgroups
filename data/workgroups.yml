@@ -17,13 +17,13 @@ workgroups:
       credentials: >
         People who handle login details / credentials for any part of the organization
         and share it with the appropriate other workgroups and members.
-      workgroups: People who review applications for and generally facilitate the operation of workgroups.
+      workgroups: People who facilitate the operation of workgroups.
       discord: Have admin permissions for the Discord server.
       github: Have admin permissions for the GitHub organization.
 
   wg-outreach:
     title: Outreach
-    subtitle: Reaching out to where Team Open may help.
+    subtitle: Reaching out to places and people where Team Open may be of help.
     discord: "#wg-outreach"
     intro: |
       The Outreach workgroup looks for places where Team Open may offer help,

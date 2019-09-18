@@ -7,7 +7,7 @@
 Title | Summary | Members
 -|-|-:
 [Organization][wg-organization]|Organization level day-to-day tasks.|2
-[Outreach][wg-outreach]|Reaching out to where Team Open may help.|2
+[Outreach][wg-outreach]|Reaching out to places and people where Team Open may be of help.|2
 [Lifeguard][wg-lifeguard]|Development of the Lifeguard project itself.|2
 [Lifeguard Devs][wg-lifeguard-devs]|People who maintain OSS in the Lifeguard programe.|2
 [Media][wg-media]|(Social) media, publication and communication tasks.|2
@@ -17,7 +17,7 @@ Title | Summary | Members
 Workgroup | Role | Summary
 -|-|-
 [Organization][wg-organization]|`credentials`|People who handle login details / credentials for any part of the organization and share it with the appropriate other workgroups and members.
-[Organization][wg-organization]|`workgroups`|People who review applications for and generally facilitate the operation of workgroups.
+[Organization][wg-organization]|`workgroups`|People who facilitate the operation of workgroups.
 [Organization][wg-organization]|`discord`|Have admin permissions for the Discord server.
 [Organization][wg-organization]|`github`|Have admin permissions for the GitHub organization.
 [Outreach][wg-outreach]|`hello`|People who manage the hello@... e-mail address.

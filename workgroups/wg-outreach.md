@@ -1,7 +1,7 @@
 <!-- GENERATED FILE, DON'T EDIT -->
 # Workgroup: Outreach
 
-_Reaching out to where Team Open may help._
+_Reaching out to places and people where Team Open may be of help._
 
 ID: wg-outreach<br>
 Discord: #wg-outreach

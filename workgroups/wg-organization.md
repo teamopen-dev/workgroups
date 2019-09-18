@@ -16,7 +16,7 @@ Role | Description
 -|-
 trial|New workgroup members who are in a trial period with limited permissions.
 credentials|People who handle login details / credentials for any part of the organization and share it with the appropriate other workgroups and members.
-workgroups|People who review applications for and generally facilitate the operation of workgroups.
+workgroups|People who facilitate the operation of workgroups.
 discord|Have admin permissions for the Discord server.
 github|Have admin permissions for the GitHub organization.
 
