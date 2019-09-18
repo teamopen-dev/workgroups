@@ -4,5 +4,6 @@ members:
     workgroups:
       wg-organization: [discord, github, credentials, workgroups]
       wg-lifeguard:
+      wg-lifeguard-devs:
       wg-outreach: [hello]
       wg-media: [twitter, devto]
