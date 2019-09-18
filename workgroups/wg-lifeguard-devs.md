@@ -12,6 +12,7 @@ The overall work on the Lifeguard project is done in `wg-lifeguard` instead.
 
 **Join when** you are interested in maintaining open-source projects in need.
 
+
 ## Roles
 
 Role | Description

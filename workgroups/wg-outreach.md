@@ -11,6 +11,7 @@ or people that may be interested in joining us and contacts them.
 
 **Join when** you are interested in connecting with the larger community.
 
+
 ## Roles
 
 Role | Description

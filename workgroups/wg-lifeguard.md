@@ -13,6 +13,7 @@ maintenance of open-source projects.
 
 **Join when** you are interested in developing the Lifeguard project.
 
+
 ## Roles
 
 Role | Description
