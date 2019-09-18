@@ -1,6 +1,4 @@
-# Team Open workgroups
-
-**[![Workgroups](badge.svg)](workgroups)**
+# About workgroups
 
 Workgroups are responsible for particular tasks within our community.
 By letting them be autonomous and responsible for their respective tasks there are two main benefits:
@@ -25,4 +23,3 @@ Within a workgroup there can be different roles. Each workgroup can define these
 The Governance and Guidance workgroup reviews proposals for new workgroups.
 There is no formalized process for this, so feel free to create an issue or reach out to one of the
 workgroup members.
-
