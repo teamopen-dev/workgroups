@@ -25,3 +25,4 @@ github|Have admin permissions for the GitHub organization.
 &nbsp;|Name|Roles
 -|-|-
 <img src="https://avatars.githubusercontent.com/Beanow?v=4&s=32" width="32" height="32" alt="Beanow" />|Robin van Boven ([@Beanow](https://github.com/Beanow))|discord, github, credentials, workgroups
+<img src="https://avatars.githubusercontent.com/nothingismagick?v=4&s=32" width="32" height="32" alt="nothingismagick" />|Daniel Thompson-Yvetot ([@nothingismagick](https://github.com/nothingismagick))|discord, github

@@ -7,3 +7,12 @@ members:
       wg-lifeguard-devs:
       wg-outreach: [hello]
       wg-media: [twitter, devto]
+
+  - username: nothingismagick
+    display: Daniel Thompson-Yvetot
+    workgroups:
+      wg-organization: [discord, github]
+      wg-lifeguard:
+      wg-lifeguard-devs:
+      wg-outreach:
+      wg-media:
