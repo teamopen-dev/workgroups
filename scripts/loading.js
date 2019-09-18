@@ -46,12 +46,18 @@ const populateWorkgroups = ({workgroups, members}) => {
 };
 
 exports.loadData = () => {
-	const workgroups = loadWorkgroups().workgroups;
-	const members = loadMembers().members;
+	const {workgroups, 'shared-roles': sharedRoles} = loadWorkgroups();
+	const {members} = loadMembers();
+
+	// Workgroups don't know which members they have yet.
 	const workgroupsWithMembers = populateWorkgroups({workgroups, members});
 
+	//Shared roles is an array of objects for easy yaml anchors.
+	//Flatten those here.
+	const sharedRolesMap = sharedRoles.reduce((map, role) => ({...map, ...role}), {});
 	return {
 		members,
-		workgroups: workgroupsWithMembers
+		sharedRoles: sharedRolesMap,
+		workgroups: workgroupsWithMembers,
 	};
 };

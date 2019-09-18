@@ -1,12 +1,35 @@
 <!-- GENERATED FILE, DON'T EDIT -->
-# Open Workgroups list
+# {{orgTitle}} - Workgroup list
 
 Title | Summary | Members
 -|-|-:
-{{#each this}}
+{{#each workgroups}}
 [{{trim title}}][{{@key}}]|{{trim subtitle}}|{{members.length}}
 {{/each}}
 
-{{#each this}}
+# List of roles
+
+Workgroup | Role | Summary
+-|-|-
+{{#each workgroups}}
+{{#each roles}}
+{{#unless (hasKey ../../sharedRoles @key)}}
+[{{trim ../title}}][{{@../key}}]|`{{@key}}`|{{trim this}}
+{{/unless}}
+{{/each}}
+{{/each}}
+
+## Shared roles
+
+Any workgroup has these roles.
+
+Role | Summary
+-|-
+{{#each sharedRoles}}
+`{{@key}}`|{{trim this}}
+{{/each}}
+
+
+{{#each workgroups}}
 [{{@key}}]: {{@key}}.md
 {{/each}}

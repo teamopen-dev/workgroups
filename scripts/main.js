@@ -2,13 +2,13 @@
 
 const {loadData} = require('./loading');
 const Templates = require('./templating');
-const {WORKGROUPS_BASE_URL} = require('./env');
+const {WORKGROUPS_BASE_URL, ORG_TITLE} = require('./env');
 const {resolve: resolvePath, join: joinPath} = require('path');
 const {sync: rimrafSync} = require('rimraf');
 const {writeFileSync} = require('fs');
 const badgen = require('badgen')
 
-const {workgroups, members} = loadData();
+const {workgroups, members, sharedRoles} = loadData();
 
 // Generates /workgroups
 const docsPath = resolvePath(__dirname, '../workgroups');
@@ -20,7 +20,7 @@ for(const key in workgroups) {
 }
 writeFileSync(
 	joinPath(docsPath, `README.md`),
-	Templates.workgroupList(workgroups)
+	Templates.workgroupList({workgroups, sharedRoles, orgTitle: ORG_TITLE})
 );
 
 // Generates /.github/ISSUE_TEMPLATE
