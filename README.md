@@ -20,7 +20,7 @@ Workgroup | Role | Summary
 [Organization][wg-organization]|`workgroups`|People who review applications for and generally facilitate the operation of workgroups.
 [Organization][wg-organization]|`discord`|Have admin permissions for the Discord server.
 [Organization][wg-organization]|`github`|Have admin permissions for the GitHub organization.
-[Outreach][wg-outreach]|`hello`|Handeling the hello@... e-mail address.
+[Outreach][wg-outreach]|`hello`|People who manage the hello@... e-mail address.
 [Media][wg-media]|`twitter`|People who manage the Twitter account.
 [Media][wg-media]|`devto`|People who manage the dev.to account.
 

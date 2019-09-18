@@ -16,7 +16,7 @@ or people that may be interested in joining us and contacts them.
 Role | Description
 -|-
 trial|New workgroup members who are in a trial period with limited permissions.
-hello|Handeling the hello@... e-mail address.
+hello|People who manage the hello@... e-mail address.
 
 ## Members
 
