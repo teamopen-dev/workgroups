@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "generate": "node main.js",
-    "commit-generated": "git add :/badge.svg :/workgroups/* && git commit -m 'Generate documents'"
+    "add-generated": "git add :/badge.svg :/workgroups/*"
   },
   "dependencies": {
     "badgen": "^2.8.2",
@@ -15,6 +15,8 @@
     "husky": "^3.0.5"
   },
   "husky": {
-    "pre-push": "npm run generate && npm run commit-generated"
+    "hooks": {
+      "pre-commit": "npm run generate && npm run add-generated"
+    }
   }
 }
