@@ -1,7 +1,7 @@
 <!-- GENERATED FILE, DON'T EDIT -->
 # Team Open - Workgroup list
 
-[![Get involved](get-involved.svg)](https://github.com/teamopen-dev/workgroups/issues/new?template=wg-join-leave.md&title=Would%20like%20to%20join)
+[![Get involved](get-involved.svg)](https://github.com/teamopen-dev/workgroups/issues/new?template=wg-0-join-leave.md&title=Would%20like%20to%20join)
 &nbsp; <sup>[More info on workgroups](ABOUT.md)</sup>
 
 Title | Summary | Members
