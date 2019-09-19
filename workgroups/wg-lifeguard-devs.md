@@ -16,7 +16,7 @@ The overall work on the Lifeguard project is done in `wg-lifeguard` instead.
 
 Role | Description
 -|-
-trial|People who have newly joined a workgroup may be trial members initially before being given the permissions a regular workgroup member would have.
+trial|New workgroup members who are in a trial period with limited permissions.
 
 ## Members
 

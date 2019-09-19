@@ -1,28 +1,40 @@
-# Team Open workgroups
+<!-- GENERATED FILE, DON'T EDIT -->
+# Team Open - Workgroup list
 
-**[![Workgroups](badge.svg)](workgroups)**
+[![Get involved](get-involved.svg)](https://github.com/teamopen-dev/workgroups/issues/new?template=wg-join-leave.md&title=Would%20like%20to%20join)
+&nbsp; <sup>[More info on workgroups](ABOUT.md)</sup>
 
-Workgroups are responsible for particular tasks within our community.
-By letting them be autonomous and responsible for their respective tasks there are two main benefits:
+Title | Summary | Members
+-|-|-:
+[Organization][wg-organization]|Organization level day-to-day tasks.|2
+[Outreach][wg-outreach]|Reaching out to places and people where Team Open may be of help.|2
+[Lifeguard][wg-lifeguard]|Development of the Lifeguard project itself.|2
+[Lifeguard Devs][wg-lifeguard-devs]|People who maintain OSS in the Lifeguard programe.|2
+[Media][wg-media]|(Social) media, publication and communication tasks.|2
 
-- Authority can be more decentralized.
-- Contributors can more easily help with the particular tasks they're interested in.
+# List of roles
 
-### Joining/leaving a workgroup
+Workgroup | Role | Summary
+-|-|-
+[Organization][wg-organization]|`credentials`|People who handle login details / credentials for any part of the organization and share it with the appropriate other workgroups and members.
+[Organization][wg-organization]|`workgroups`|People who facilitate the operation of workgroups.
+[Organization][wg-organization]|`discord`|Have admin permissions for the Discord server.
+[Organization][wg-organization]|`github`|Have admin permissions for the GitHub organization.
+[Outreach][wg-outreach]|`hello`|People who manage the hello@... e-mail address.
+[Media][wg-media]|`twitter`|People who manage the Twitter account.
+[Media][wg-media]|`devto`|People who manage the dev.to account.
 
-Workgroups are open to anyone. If you're interested, you can join by creating a new issue using
-the "Join workgroups" issue template.
+## Shared roles
 
-Likewise you can leave whenever you like with the "Leave workgroups" issue template.
+Any workgroup has these roles.
 
-### Roles within a workgroup
+Role | Summary
+-|-
+`trial`|New workgroup members who are in a trial period with limited permissions.
 
-As a first time member you'll likely be assigned a "trial" role first.
-Within a workgroup there can be different roles. Each workgroup can define these for themselves.
 
-### Proposing new workgroups
-
-The Governance and Guidance workgroup reviews proposals for new workgroups.
-There is no formalized process for this, so feel free to create an issue or reach out to one of the
-workgroup members.
-
+[wg-organization]: workgroups/wg-organization.md
+[wg-outreach]: workgroups/wg-outreach.md
+[wg-lifeguard]: workgroups/wg-lifeguard.md
+[wg-lifeguard-devs]: workgroups/wg-lifeguard-devs.md
+[wg-media]: workgroups/wg-media.md

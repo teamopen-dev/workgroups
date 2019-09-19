@@ -1,0 +1,10 @@
+<svg width="200" height="40" viewBox="0 0 1000 200" xmlns="http://www.w3.org/2000/svg">
+  <linearGradient id="a" x2="0" y2="100%">
+    <stop offset="0" stop-opacity="1" stop-color="#34d058"/>
+    <stop offset=".9" stop-opacity="1" stop-color="#28a745"/>
+  </linearGradient>
+  <rect width="1000" height="200" rx="30" fill="url(#a)" stroke="#1b1f23" stroke-opacity=".2" stroke-width="10"/>
+  <g fill="#fff" text-anchor="start" font-family="Helvetica,DejaVu Sans,sans-serif" font-size="90" font-weight="600">
+    <text x="180" y="130" textLength="640">Get involved</text>
+  </g>
+</svg>

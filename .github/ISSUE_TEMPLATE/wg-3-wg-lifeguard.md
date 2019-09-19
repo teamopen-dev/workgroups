@@ -3,9 +3,7 @@
 name: 'Notify workgroup: Lifeguard'
 about: Development of the Lifeguard project itself.
 ---
-
-
-<!-- Write your message above here -->
+<!-- Add your message here -->
 
 Notification for `wg-lifeguard`:
 @Beanow @nothingismagick 

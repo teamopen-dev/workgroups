@@ -1,7 +1,7 @@
 <!-- GENERATED FILE, DON'T EDIT -->
 # Workgroup: Outreach
 
-_Reaching out to where Team Open may help._
+_Reaching out to places and people where Team Open may be of help._
 
 ID: wg-outreach<br>
 Discord: #wg-outreach
@@ -15,8 +15,8 @@ or people that may be interested in joining us and contacts them.
 
 Role | Description
 -|-
-trial|People who have newly joined a workgroup may be trial members initially before being given the permissions a regular workgroup member would have.
-hello|Handeling the hello@... e-mail address.
+trial|New workgroup members who are in a trial period with limited permissions.
+hello|People who manage the hello@... e-mail address.
 
 ## Members
 

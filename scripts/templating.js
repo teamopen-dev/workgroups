@@ -12,11 +12,13 @@ const mdMemberDisplay = member =>
 	`${member.display} ([@${member.username}](https://github.com/${member.username}))` :
 	`[@${member.username}](https://github.com/${member.username})`;
 
-const trim = string => string.trim();
+const trim = string => (typeof string == 'string') && string.trim() || string;
 const join = (array, separator) => array.join(separator);
+const hasKey = (obj, key) => key in obj;
 
 Handlebars.registerHelper('trim', trim);
 Handlebars.registerHelper('join', join);
+Handlebars.registerHelper('hasKey', hasKey);
 Handlebars.registerHelper('avatarFor', mdAvatarFor);
 Handlebars.registerHelper('memberDisplay', mdMemberDisplay);
 

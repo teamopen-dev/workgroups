@@ -21,7 +21,7 @@ to see more details on the different workgroups.
 
 Please **add me** to the following workgroups:
 - [ ] [Organization][wg-organization] - _Organization level day-to-day tasks._
-- [ ] [Outreach][wg-outreach] - _Reaching out to where Team Open may help._
+- [ ] [Outreach][wg-outreach] - _Reaching out to places and people where Team Open may be of help._
 - [ ] [Lifeguard][wg-lifeguard] - _Development of the Lifeguard project itself._
 - [ ] [Lifeguard Devs][wg-lifeguard-devs] - _People who maintain OSS in the Lifeguard programe._
 - [ ] [Media][wg-media] - _(Social) media, publication and communication tasks._
@@ -29,11 +29,12 @@ Please **add me** to the following workgroups:
 Please **remove me** from the following workgroups:
 - [ ] All workgroups
 - [ ] [Organization][wg-organization] - _Organization level day-to-day tasks._
-- [ ] [Outreach][wg-outreach] - _Reaching out to where Team Open may help._
+- [ ] [Outreach][wg-outreach] - _Reaching out to places and people where Team Open may be of help._
 - [ ] [Lifeguard][wg-lifeguard] - _Development of the Lifeguard project itself._
 - [ ] [Lifeguard Devs][wg-lifeguard-devs] - _People who maintain OSS in the Lifeguard programe._
 - [ ] [Media][wg-media] - _(Social) media, publication and communication tasks._
 
+## Additional comments
 
 <!--
 

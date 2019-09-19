@@ -3,9 +3,7 @@
 name: 'Notify workgroup: Media'
 about: (Social) media, publication and communication tasks.
 ---
-
-
-<!-- Write your message above here -->
+<!-- Add your message here -->
 
 Notification for `wg-media`:
 @Beanow @nothingismagick 

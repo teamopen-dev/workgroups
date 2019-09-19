@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "generate": "node main.js",
-    "add-generated": "git add :/badge.svg :/workgroups/* :/.github/ISSUE_TEMPLATE/wg-*"
+    "add-generated": "git add :/README.md :/badge.svg :/workgroups/* :/.github/ISSUE_TEMPLATE/wg-*"
   },
   "dependencies": {
     "badgen": "^2.8.2",
