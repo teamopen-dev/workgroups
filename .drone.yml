@@ -3,6 +3,8 @@ name: trigger-web-build
 
 steps:
   - name: trigger-web-build
+    # See https://hub.docker.com/r/cibuilds/base/
+    # MIT licensed
     image: cibuilds/base
     environment:
       # Access token to trigger rebuilding the website.
