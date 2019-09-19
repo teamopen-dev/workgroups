@@ -1,0 +1,21 @@
+kind: pipeline
+name: trigger-web-build
+
+steps:
+  - name: trigger-web-build
+    image: cibuilds/base
+    environment:
+      # Access token to trigger rebuilding the website.
+      # See https://cloud.drone.io/account
+      DRONE_ACCESS_TOKEN:
+        from_secret: DRONE_ACCESS_TOKEN
+    commands:
+      - >
+        curl -X POST -H "Authorization: Bearer $DRONE_ACCESS_TOKEN"
+        "https://cloud.drone.io/api/repos/teamopen-dev/website-org/builds?branch=master"
+
+trigger:
+  branch:
+    - master
+  event:
+    - push
