@@ -16,7 +16,8 @@ steps:
         from_secret: DRONE_ACCESS_TOKEN
     commands:
       - >
-        curl -X POST -H "Authorization: Bearer $DRONE_ACCESS_TOKEN"
+        curl -X POST -s -o /dev/null -I -w "%{http_code}"
+        -H "Authorization: Bearer $DRONE_ACCESS_TOKEN"
         "https://cloud.drone.io/api/repos/teamopen-dev/website-org/builds?branch=master"
 
 trigger:
