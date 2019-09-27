@@ -13,7 +13,7 @@ Organization level day-to-day tasks.
 ## Roles
 
 Role | Description
--|-
+--- | ---
 trial|New workgroup members who are in a trial period with limited permissions.
 credentials|People who handle login details / credentials for any part of the organization and share it with the appropriate other workgroups and members.
 workgroups|People who facilitate the operation of workgroups.
@@ -23,6 +23,6 @@ github|Have admin permissions for the GitHub organization.
 ## Members
 
 &nbsp;|Name|Roles
--|-|-
+--- | --- | ---
 <img src="https://avatars.githubusercontent.com/Beanow?v=4&s=32" width="32" height="32" alt="Beanow" />|Robin van Boven ([@Beanow](https://github.com/Beanow))|discord, github, credentials, workgroups
 <img src="https://avatars.githubusercontent.com/nothingismagick?v=4&s=32" width="32" height="32" alt="nothingismagick" />|Daniel Thompson-Yvetot ([@nothingismagick](https://github.com/nothingismagick))|discord, github

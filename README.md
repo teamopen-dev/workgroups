@@ -5,7 +5,7 @@
 &nbsp; <sup>[More info on workgroups](ABOUT.md)</sup>
 
 Title | Summary | Members
--|-|-:
+--- | --- | ---:
 [Organization][wg-organization]|Organization level day-to-day tasks.|2
 [Outreach][wg-outreach]|Reaching out to places and people where Team Open may be of help.|2
 [Lifeguard][wg-lifeguard]|Development of the Lifeguard project itself.|2
@@ -15,7 +15,7 @@ Title | Summary | Members
 # List of roles
 
 Workgroup | Role | Summary
--|-|-
+--- | --- | ---
 [Organization][wg-organization]|`credentials`|People who handle login details / credentials for any part of the organization and share it with the appropriate other workgroups and members.
 [Organization][wg-organization]|`workgroups`|People who facilitate the operation of workgroups.
 [Organization][wg-organization]|`discord`|Have admin permissions for the Discord server.
@@ -29,7 +29,7 @@ Workgroup | Role | Summary
 Any workgroup has these roles.
 
 Role | Summary
--|-
+--- | ---
 `trial`|New workgroup members who are in a trial period with limited permissions.
 
 

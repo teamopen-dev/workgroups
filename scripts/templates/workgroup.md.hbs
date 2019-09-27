@@ -10,7 +10,7 @@ ID: {{key}}<br>
 ## Roles
 
 Role | Description
--|-
+--- | ---
 {{#each roles}}
 {{@key}}|{{trim this}}
 {{/each}}
@@ -18,7 +18,7 @@ Role | Description
 ## Members
 
 &nbsp;|Name|Roles
--|-|-
+--- | --- | ---
 {{#each members}}
 {{{avatarFor member.username 32}}}|{{memberDisplay member}}|{{join roles ', '}}
 {{/each}}

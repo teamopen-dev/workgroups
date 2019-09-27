@@ -15,7 +15,7 @@ internally and externally.
 ## Roles
 
 Role | Description
--|-
+--- | ---
 trial|New workgroup members who are in a trial period with limited permissions.
 twitter|People who manage the Twitter account.
 devto|People who manage the dev.to account.
@@ -23,6 +23,6 @@ devto|People who manage the dev.to account.
 ## Members
 
 &nbsp;|Name|Roles
--|-|-
+--- | --- | ---
 <img src="https://avatars.githubusercontent.com/Beanow?v=4&s=32" width="32" height="32" alt="Beanow" />|Robin van Boven ([@Beanow](https://github.com/Beanow))|twitter, devto
 <img src="https://avatars.githubusercontent.com/nothingismagick?v=4&s=32" width="32" height="32" alt="nothingismagick" />|Daniel Thompson-Yvetot ([@nothingismagick](https://github.com/nothingismagick))|

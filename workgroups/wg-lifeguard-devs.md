@@ -15,12 +15,12 @@ The overall work on the Lifeguard project is done in `wg-lifeguard` instead.
 ## Roles
 
 Role | Description
--|-
+--- | ---
 trial|New workgroup members who are in a trial period with limited permissions.
 
 ## Members
 
 &nbsp;|Name|Roles
--|-|-
+--- | --- | ---
 <img src="https://avatars.githubusercontent.com/Beanow?v=4&s=32" width="32" height="32" alt="Beanow" />|Robin van Boven ([@Beanow](https://github.com/Beanow))|
 <img src="https://avatars.githubusercontent.com/nothingismagick?v=4&s=32" width="32" height="32" alt="nothingismagick" />|Daniel Thompson-Yvetot ([@nothingismagick](https://github.com/nothingismagick))|

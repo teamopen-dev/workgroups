@@ -5,7 +5,7 @@
 &nbsp; <sup>[More info on workgroups](ABOUT.md)</sup>
 
 Title | Summary | Members
--|-|-:
+--- | --- | ---:
 {{#each workgroups}}
 [{{trim title}}][{{@key}}]|{{trim subtitle}}|{{members.length}}
 {{/each}}
@@ -13,7 +13,7 @@ Title | Summary | Members
 # List of roles
 
 Workgroup | Role | Summary
--|-|-
+--- | --- | ---
 {{#each workgroups}}
 {{#each roles}}
 {{#unless (hasKey ../../sharedRoles @key)}}
@@ -27,7 +27,7 @@ Workgroup | Role | Summary
 Any workgroup has these roles.
 
 Role | Summary
--|-
+--- | ---
 {{#each sharedRoles}}
 `{{@key}}`|{{trim this}}
 {{/each}}
