@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "badgen": "^2.8.2",
-    "handlebars": "^4.2.0",
+    "handlebars": "^4.3.0",
     "rimraf": "^3.0.0",
     "yaml": "^1.6.0"
   },
